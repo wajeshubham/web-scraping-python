@@ -20,4 +20,4 @@ for i in range(len(patch)):
 # insert data in table
 data_file['Engineering colleges'] = clg_list
 
-# data_file.to_excel('engg_data.xlsx',index=False)
+data_file.to_excel('engg_data.xlsx',index=False)
