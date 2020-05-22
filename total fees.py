@@ -31,4 +31,4 @@ for i in range(len(fees)):
 
 # insert data in table
 data_file["Total Fees"] = fees
-# data_file.to_excel('engg_data.xlsx',index=False)
+data_file.to_excel('engg_data.xlsx',index=False)
